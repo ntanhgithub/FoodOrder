@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.OrdersFragment">
+
+   <LinearLayout
+       android:background="#860010"
+       android:layout_width="match_parent"
+       android:layout_height="91dp"
+       android:orientation="vertical"
+       >
+
+       <LinearLayout
+
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+           <com.google.android.material.bottomnavigation.BottomNavigationView
+               android:id="@+id/tablayout"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center"
+               android:background="#860010"
+               android:paddingBottom="13dp"
+               app:itemTextColor="@drawable/selector_item_textoders"
+               app:labelVisibilityMode="labeled"
+               app:menu="@menu/menu_orders"
+               />
+       </LinearLayout>
+
+   </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

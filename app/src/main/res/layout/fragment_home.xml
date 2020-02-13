@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_title" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="343dp"
+                            android:background="#A80014" />
+
+                    </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="105dp"
+                        android:layout_height="32dp"
+                        android:layout_marginLeft="135dp"
+                        android:layout_marginTop="43dp"
+                        android:layout_marginRight="135dp"
+                        android:src="@drawable/logo_app" />
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:id="@+id/edSearchHome"
+                        android:layout_width="330dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edditext_style"
+                        android:drawableLeft="@drawable/ic_magnifying_glass"
+                        android:drawablePadding="12dp"
+                        android:hint="Search restaurant"
+                        android:paddingLeft="18dp" />
+                    <Button
+                        android:id="@+id/btSearchHome"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/ic_search"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
+                </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="31dp"
+                        android:paddingLeft="20dp"
+                        android:text="PLAN YOUR WHOLE WEEK MEAL"
+                        android:textColor="#ffffff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="342dp"
+                        android:layout_height="54dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="Order your nutrition and meal for the whole week and enjoy delicous food from our system. The menu will be different every week so you can enjoy more different food."
+                        android:textColor="#ffffff"
+                        android:textSize="12dp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerview_plant"
+                        android:layout_width="wrap_content"
+                        android:layout_height="340dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="14dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:orientation="horizontal"></androidx.recyclerview.widget.RecyclerView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp"
+                        android:text="CATEGORIES"
+                        android:textColor="#000000"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerview_categories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="103dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal"></androidx.recyclerview.widget.RecyclerView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp"
+                        android:text="TODAY’S HIGHLIGHTS"
+                        android:textColor="#000000"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Enjoy our best dish picking from high quality restaurant"
+                        android:textColor="#000000"
+                        android:textSize="12dp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerview_highlight"
+                        android:layout_width="335dp"
+                        android:layout_height="460dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical"></androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+                <ProgressBar
+
+                    android:id="@+id/pbLoadingHome"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:indeterminateTintMode="screen"
+                    />
+            </FrameLayout>
+
+    </ScrollView>
+</FrameLayout>

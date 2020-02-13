@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/icon_oder"
+        android:title="Order"
+        android:id="@+id/oder">
+    </item>
+
+    <item
+        android:icon="@drawable/icon_promtion"
+        android:title="Promotions"
+        android:id="@+id/promotions">
+    </item>
+
+    <item
+        android:icon="@drawable/icon_nevent"
+        android:title="New &amp; Events"
+        android:id="@+id/newandevents">
+    </item>
+
+
+
+</menu>

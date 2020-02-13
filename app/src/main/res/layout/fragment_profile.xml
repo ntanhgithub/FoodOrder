@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ProfileFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="43dp"
+                android:id="@+id/profile_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_lich"
+                />
+            <TextView
+                android:id="@+id/txtUserName"
+                android:textStyle="bold"
+                android:textColor="#4A4A4A"
+                android:layout_marginTop="10dp"
+                android:text="Douglas Larson"
+                android:textSize="16dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <LinearLayout
+
+
+                android:layout_marginTop="14dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+                <TextView
+                    android:id="@+id/txtPayment"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="37dp"
+                    android:gravity=""
+                    android:background="#EAEAEA"
+                    android:text="Payment Invoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <ImageView
+                        android:id="@+id/imgcard"
+                        android:layout_marginLeft="37dp"
+                        android:layout_marginBottom="21dp"
+                        android:layout_marginTop="21dp"
+                        android:src="@drawable/imgasset3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="81dp"
+                        android:text="Payment">
+
+                    </TextView>
+
+                    <ImageView
+
+                        android:layout_marginRight="38dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_mright3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#000000"></LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <ImageView
+                        android:layout_marginLeft="37dp"
+                        android:layout_marginBottom="21dp"
+                        android:layout_marginTop="21dp"
+                        android:src="@drawable/icon_note"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="81dp"
+                        android:text="Invoice">
+
+                    </TextView>
+
+                    <ImageView
+
+                        android:layout_marginRight="38dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_mright3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_marginTop="14dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="290dp">
+                <TextView
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="37dp"
+                    android:gravity=""
+                    android:background="#EAEAEA"
+                    android:text="Account Settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <RelativeLayout
+                    android:id="@+id/rlAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <ImageView
+                        android:layout_marginLeft="37dp"
+                        android:layout_marginBottom="21dp"
+                        android:layout_marginTop="21dp"
+                        android:src="@drawable/icon_acccount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="81dp"
+                        android:text="Account Information">
+
+                    </TextView>
+
+                    <ImageView
+
+                        android:layout_marginRight="38dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_mright3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#000000"></LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <ImageView
+                        android:layout_marginLeft="37dp"
+                        android:layout_marginBottom="21dp"
+                        android:layout_marginTop="21dp"
+                        android:src="@drawable/icon_diachi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="81dp"
+                        android:text="Address">
+
+                    </TextView>
+
+                    <ImageView
+
+                        android:layout_marginRight="38dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_mright3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#000000"></LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="37dp"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginBottom="21dp"
+                        android:src="@drawable/icon_bell"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="81dp"
+                        android:text="Notification"
+                        android:textSize="14dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Switch
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="13dp"
+                        android:checked="false"
+                        android:theme="@style/SCBSwitch"></Switch>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#000000"></LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="37dp"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginBottom="21dp"
+                        android:src="@drawable/icon_lock"></ImageView>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="81dp"
+                        android:text="Password">
+
+                    </TextView>
+
+                    <ImageView
+
+                        android:layout_marginRight="38dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_mright3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                </RelativeLayout>
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+
+
+                android:layout_marginTop="14dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="230dp">
+                <TextView
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="37dp"
+                    android:gravity=""
+                    android:background="#EAEAEA"
+                    android:text="Support"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <ImageView
+                        android:layout_marginLeft="37dp"
+                        android:layout_marginBottom="21dp"
+                        android:layout_marginTop="21dp"
+                        android:src="@drawable/icon_faq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="81dp"
+                        android:text="FAQ">
+
+                    </TextView>
+
+                    <ImageView
+
+                        android:layout_marginRight="38dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_mright3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#000000"></LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <ImageView
+                        android:layout_marginLeft="37dp"
+                        android:layout_marginBottom="21dp"
+                        android:layout_marginTop="21dp"
+                        android:src="@drawable/icon_dieukien"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="81dp"
+                        android:text="Terms &amp; Conditions">
+
+                    </TextView>
+
+                    <ImageView
+
+                        android:layout_marginRight="38dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_mright3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#000000"></LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <ImageView
+                        android:layout_marginLeft="37dp"
+                        android:layout_marginBottom="21dp"
+                        android:layout_marginTop="21dp"
+                        android:src="@drawable/icon_document"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="81dp"
+                        android:text="Privacy Policy">
+
+                    </TextView>
+
+                    <ImageView
+
+                        android:layout_marginRight="38dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_mright3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_marginTop="14dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="230dp">
+                <TextView
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="37dp"
+                    android:gravity=""
+                    android:background="#EAEAEA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <RelativeLayout
+                    android:id="@+id/rlLogOut"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <ImageView
+                        android:layout_marginLeft="37dp"
+                        android:layout_marginBottom="21dp"
+                        android:layout_marginTop="21dp"
+                        android:src="@drawable/icon_logout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#E91E1E"
+                        android:textSize="14dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="81dp"
+                        android:text="Log out">
+
+                    </TextView>
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

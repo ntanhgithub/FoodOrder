@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ProfileFragment">
+
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="43dp"
+            android:src="@drawable/icon_lich" />
+
+        <ImageView
+            android:layout_marginLeft="38dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_icon_back"
+            android:id="@+id/imgback"
+            android:layout_width="15dp"
+            android:layout_height="15dp">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btnChangeimg"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="10dp"
+            android:textColor="#A80014"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_profile"
+            android:text="@string/changeimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="27dp"
+        android:text="Firstname"
+        android:textColor="#4A4A4A"
+        android:textSize="14dp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edFirstnamechange"
+        android:layout_gravity="center"
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:background="#D8CECE"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="10dp"
+        android:text="Lastname"
+        android:textColor="#4A4A4A"
+        android:textSize="14dp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edLastnamechange"
+        android:layout_gravity="center"
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:background="#D8CECE"></EditText>
+
+    <Button
+        android:id="@+id/btnSaveName"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="173dp"
+        android:layout_marginBottom="21.5dp"
+        android:background="@drawable/bg_register_button"
+        android:text="SAVE CHANGES"
+        android:textColor="#ffffff"></Button>
+
+
+</LinearLayout>
+
+

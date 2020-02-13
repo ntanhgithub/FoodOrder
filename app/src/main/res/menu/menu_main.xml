@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/item_them"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Them"
+        app:showAsAction="always" />
+    <item
+
+        android:id="@+id/item_chiase"
+
+        android:title="chia se">
+
+        <menu>
+            <item
+
+                android:id="@+id/item_fb"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Facebook">
+                <item
+                    android:id="@+id/item_fb1"
+
+                    android:title="Facebook">
+                    <menu>
+                        <item
+
+                            android:id="@+id/item_fb3"
+                            android:icon="@mipmap/ic_launcher"
+                            android:title="Facebook"></item>
+                    </menu>
+                </item>
+            </item>
+            <item
+                android:id="@+id/item_git"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Github" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="335dp"
+    android:layout_height="160dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgHighlight"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/img_food1"
+        android:scaleType="fitCenter"
+        android:layout_gravity="start"
+        />
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="157dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tvNameHighLightFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="Salmon Pasta with a Creamy Garlic Sauce"
+            android:textColor="#000000"
+            android:textSize="14dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tvPriceHighLightFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S$1800.00"
+            android:textColor="#A80014"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/tvDetailHighLightRestaurant"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Barbecure &amp; bar"
+            android:textColor="#4a4a4a"
+            android:textSize="12dp"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="#9C9797"
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="3dp"
+                android:id="@+id/imgLogoHighLight"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/img_icon_logo" />
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNameHighLightRestaurant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="The Girlls Sai Gon"
+                    android:textColor="#000000"
+                    android:textSize="13dp">
+
+                </TextView>
+                <TextView
+                    android:textStyle="italic"
+                    android:id="@+id/tvCuisicuiHighLightRestaurant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="The Girlls Sai Gon"
+                    android:textColor="#615F5F"
+                    android:textSize="12dp">
+
+                </TextView>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btAdddHighLight"
+        android:textSize="16dp"
+        android:text="+"
+        android:textColor="#ffffff"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="0dp"
+        android:layout_marginTop="43dp"
+        android:background="#A80014" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Food Booking</string>
+
+    <string name="changeimg"><u>Change Profile picture</u></string>
+    <string name="login"><u>Login</u></string>
+    <string name="mark"><u>Mark all as read</u></string>
+    <string name="test">Knowing <span class="highlighted">the components</span> of cells
+and how cells work is fundamental
+to <span class="highlighted">all biological sciences</span>.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

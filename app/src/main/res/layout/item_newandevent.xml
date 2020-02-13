@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/foregroundContainer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF2F3">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgNewevent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="18dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/icon_lich"
+                android:layout_width="36dp"
+                android:layout_height="36dp">
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/txtNewevent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15.8dp"
+                android:textSize="12dp"
+                android:layout_toRightOf="@id/imgNewevent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/txtNewevent2"
+                android:textSize="12dp"
+                android:textColor="#A1A1A1"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@id/imgNewevent"
+                android:layout_below="@id/txtNewevent"
+                android:text="03 Oct 2018"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:background="#000000"></LinearLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>
